@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962B5E181B0024DB00B070A2 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 962B5E171B0024DB00B070A2 /* Player.m */; };
+		962B5E1B1B002C6500B070A2 /* Rooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 962B5E1A1B002C6500B070A2 /* Rooms.m */; };
 		96FFEDB91AFEB7D00058170A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FFEDB81AFEB7D00058170A /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		962B5E161B0024DB00B070A2 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		962B5E171B0024DB00B070A2 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		962B5E191B002C6500B070A2 /* Rooms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rooms.h; sourceTree = "<group>"; };
+		962B5E1A1B002C6500B070A2 /* Rooms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rooms.m; sourceTree = "<group>"; };
 		96FFEDB51AFEB7D00058170A /* AdventureGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventureGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FFEDB81AFEB7D00058170A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				96FFEDB81AFEB7D00058170A /* main.m */,
+				962B5E191B002C6500B070A2 /* Rooms.h */,
+				962B5E1A1B002C6500B070A2 /* Rooms.m */,
+				962B5E161B0024DB00B070A2 /* Player.h */,
+				962B5E171B0024DB00B070A2 /* Player.m */,
 			);
 			path = AdventureGame;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B5E1B1B002C6500B070A2 /* Rooms.m in Sources */,
+				962B5E181B0024DB00B070A2 /* Player.m in Sources */,
 				96FFEDB91AFEB7D00058170A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +247,7 @@
 				96FFEDBE1AFEB7D00058170A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
